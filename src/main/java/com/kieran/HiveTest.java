@@ -14,29 +14,27 @@ import java.sql.SQLException;
 
 public class HiveTest {
 
+    // Initialise logger for the application
 
-         static Logger logger = Logger.getLogger(HiveTest.class);
+    //static Logger logger = Logger.getLogger(HiveTest.class);
 
-
-    // Set the driver name and table name variables for use later on.
-   // public static String driverName = "org.apache.hive.jdbc.HiveDriver";
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException, IOException, URISyntaxException {
 
+        log4J.createLogger();
 
-        //DOMConfigurator is used to configure logger from xml configuration file
-        DOMConfigurator.configure("src/cfg/log4j-config.xml");
+        // Initialise new instance of the main menu
+        Menu men = new Menu();
 
-                //Log in console in and log file
-        logger.debug("Log4j appender configuration is successful !!");
-
-    menu men = new menu();
+        // Call the main menu method
         men.menuMethod();
 
 
     }
 
-    }
+
+
+}
 
 
 

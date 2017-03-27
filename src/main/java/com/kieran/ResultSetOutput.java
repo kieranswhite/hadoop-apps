@@ -12,13 +12,21 @@ public class ResultSetOutput {
 
     public static void printResultSet (ResultSet res)throws SQLException {
 
-        ResultSetMetaData rsmd = res.getMetaData();
-        int columnsNumber = rsmd.getColumnCount();
+
+        // Retrieving the result set metadata
+        ResultSetMetaData resSetMeta = res.getMetaData();
+
+        // Obtaining the number of columns returned
+        int numberOfColumns = resSetMeta.getColumnCount();
+
+        // While loop for each row returned from the query
         while (res.next()) {
-            for (int i = 1; i <= columnsNumber; i++) {
-                if (i > 1) System.out.print(",  ");
-                String columnValue = res.getString(i);
-                System.out.print(columnValue + " " + rsmd.getColumnName(i));
+
+            // For loop printing the column name and value for each column
+            for (int i = 1; i <= numberOfColumns; i++) {
+                if (i > 1) System.out.print("| ");
+                String dataValue = res.getString(i);
+                System.out.print(resSetMeta.getColumnName(i) + " " + dataValue);
             }
             System.out.println("");
         }
