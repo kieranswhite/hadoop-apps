@@ -22,8 +22,6 @@ public class HiveDataExplorer {
     }
 
 
-
-
     public void explorer () throws ClassNotFoundException, SQLException{
 
         // Print lines showing the 5 options

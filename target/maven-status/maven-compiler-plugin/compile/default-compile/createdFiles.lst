@@ -1,1 +1,7 @@
-com\kieran\menu.class
+com\kieran\HiveDataExplorer.class
+com\kieran\Menu.class
+com\kieran\HiveTools.class
+com\kieran\CreateTableFromCSV.class
+com\kieran\RunCustomQuery.class
+com\kieran\Log4J.class
+com\kieran\ResultSetOutput.class

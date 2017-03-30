@@ -6,11 +6,11 @@ import org.apache.log4j.xml.DOMConfigurator;
 /**
  * Created by KIWHITE on 21/03/2017.
  */
-public class log4J {
+public class Log4J {
 
     public static void createLogger() {
 
-        Logger logger = Logger.getLogger(log4J.class);
+        Logger logger = Logger.getLogger(Log4J.class);
 
         //DOMConfigurator is used to configure logger from xml configuration file
         DOMConfigurator.configure("src/cfg/log4j-config.xml");

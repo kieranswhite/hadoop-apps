@@ -84,22 +84,7 @@ public class CreateTableFromCSV {
         // Copy the local file to the specified HDFS location
         fs.copyFromLocalFile(localFilePath,hdfsFilePath);
 
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 

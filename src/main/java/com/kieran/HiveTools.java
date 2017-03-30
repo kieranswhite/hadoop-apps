@@ -5,23 +5,17 @@ package com.kieran;
  */
 
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.xml.DOMConfigurator;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.sql.SQLException;
 
 
-public class HiveTest {
-
-    // Initialise logger for the application
-
-    //static Logger logger = Logger.getLogger(HiveTest.class);
+public class HiveTools {
 
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException, IOException, URISyntaxException {
 
-        log4J.createLogger();
+        Log4J.createLogger();
 
         // Initialise new instance of the main menu
         Menu men = new Menu();

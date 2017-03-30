@@ -1,7 +1,8 @@
 C:\Users\kiwhite\git\hadoop-apps\src\main\java\package-info.java
-C:\Users\kiwhite\git\hadoop-apps\src\main\java\com\kieran\menu.java
-C:\Users\kiwhite\git\hadoop-apps\src\main\java\com\kieran\Record.java
-C:\Users\kiwhite\git\hadoop-apps\src\main\java\com\kieran\createTableFromCSV.java
-C:\Users\kiwhite\git\hadoop-apps\src\main\java\com\kieran\runCustomQuery.java
-C:\Users\kiwhite\git\hadoop-apps\src\main\java\com\kieran\hiveDataExplorer.java
-C:\Users\kiwhite\git\hadoop-apps\src\main\java\com\kieran\HiveTest.java
+C:\Users\kiwhite\git\hadoop-apps\src\main\java\com\kieran\Menu.java
+C:\Users\kiwhite\git\hadoop-apps\src\main\java\com\kieran\ResultSetOutput.java
+C:\Users\kiwhite\git\hadoop-apps\src\main\java\com\kieran\CreateTableFromCSV.java
+C:\Users\kiwhite\git\hadoop-apps\src\main\java\com\kieran\RunCustomQuery.java
+C:\Users\kiwhite\git\hadoop-apps\src\main\java\com\kieran\HiveDataExplorer.java
+C:\Users\kiwhite\git\hadoop-apps\src\main\java\com\kieran\Log4J.java
+C:\Users\kiwhite\git\hadoop-apps\src\main\java\com\kieran\HiveTools.java

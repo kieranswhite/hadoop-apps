@@ -26,7 +26,13 @@ public class ResultSetOutput {
             for (int i = 1; i <= numberOfColumns; i++) {
                 if (i > 1) System.out.print("| ");
                 String dataValue = res.getString(i);
-                System.out.print(resSetMeta.getColumnName(i) + " " + dataValue);
+                //System.out.print(resSetMeta.getColumnName(i) + " " + dataValue);
+                System.out.println("+------------------------+");
+                System.out.println(resSetMeta.getColumnName(i));
+                System.out.println("+------------------------+");
+                System.out.println(dataValue);
+                System.out.println("+------------------------+");
+
             }
             System.out.println("");
         }
